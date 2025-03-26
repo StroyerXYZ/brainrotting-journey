@@ -1,0 +1,148 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_1"
+	group: "471071ED469F10D8"
+	icon: "brainrotting_journey_assets:ts"
+	id: "5A57533AF8983C76"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "brainrotting_journey_assets:brainrotting_journey_icon"
+			id: "6726BC6C3704250A"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "2771148A15E928E8"
+				title: "Chapter 1"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6726BC6C3704250A"]
+			description: [
+				"Ts world used to be a peaceful paradise. That was until the brainrot invaded."
+				""
+				"The ocean that once was full of waves became still."
+				""
+				"All of a sudden a strange gate appeared over the still ocean."
+			]
+			icon: "brainrotting_journey_assets:toilet"
+			id: "52E09DFBC11915A1"
+			subtitle: "Story"
+			tasks: [{
+				id: "40130064FF0D37F3"
+				title: "The Invasion"
+				type: "checkmark"
+			}]
+			title: "The Invasion - 1"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["52E09DFBC11915A1"]
+			description: [
+				"Out of the gate came strange toilets with heads sticking out of them."
+				""
+				"For some bizarre reason these toilets kept saying \"skibidi dop\" over and over again."
+				""
+				"Nobody could move, all they could do was watch as the toilets destroyed everything."
+			]
+			icon: "brainrotting_journey_assets:toilet"
+			id: "42093F0753FC4EF9"
+			subtitle: "Story"
+			tasks: [{
+				id: "2BE4EA83E58C5553"
+				title: "The Invasion - 2"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["42093F0753FC4EF9"]
+			description: [
+				"Your mission is to stop the invasion."
+				""
+				"Find a Skibidi Toilet and slay it."
+			]
+			id: "7B6127F9DDBA3DAA"
+			subtitle: "Story"
+			tasks: [{
+				id: "3BE6541CCDB81DF7"
+				item: "brainrotting_journey_assets:toilet"
+				type: "item"
+			}]
+			title: "The Invasion - 3"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7B6127F9DDBA3DAA"]
+			description: ["Use the ingredient you got to craft your phone."]
+			icon: {
+				Count: 1
+				id: "brainrotting_journey_assets:phone"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2BB0725251C63268"
+			size: 1.5d
+			subtitle: "Quest"
+			tasks: [{
+				id: "43274308A553644A"
+				item: {
+					Count: 1
+					id: "brainrotting_journey_assets:phone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Call John Pork"
+			x: 0.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["2BB0725251C63268"]
+			id: "7698EE7F49EC4FDE"
+			subtitle: "Story"
+			tasks: [{
+				id: "5B7DF7B7894F2505"
+				title: "John Porks Call - 1"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7698EE7F49EC4FDE"]
+			id: "0DD25E9FD17D1F17"
+			tasks: [{
+				id: "2E3A06D0987D5C3F"
+				title: "The Journey Begins"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7698EE7F49EC4FDE"]
+			id: "1756B323E2A18FFA"
+			tasks: [{
+				id: "4DE5D96F9E2A26CA"
+				title: "John Porks Call - 2"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+	]
+	subtitle: ["The Invasion"]
+	title: "Chapter 1"
+}

@@ -1,0 +1,25 @@
+#Define rarity for each item in this list to common rank, must be a resource location name !
+#If any item is already defined in another list, it will use the highest rarity first !
+item_rarity_common_list = []
+#Define rarity for each item in this list to uncommon rank, must be a resource location name !
+#If any item is already defined in another list, it will use the highest rarity first !
+item_rarity_uncommon_list = []
+#Define rarity for each item in this list to rare rank, must be a resource location name !
+#If any item is already defined in another list, it will use the highest rarity first !
+item_rarity_rare_list = ["brainrotting_journey_assets:blade", "brainrotting_journey_assets:shadow_steel_armor_helmet", "brainrotting_journey_assets:shadow_steel_armor_chestplate", "brainrotting_journey_assets:shadow_steel_armor_leggings", "brainrotting_journey_assets:shadow_steel_armor_boots", "brainrotting_journey_assets:orb_infusion_smithing_template"]
+#Define rarity for each item in this list to epic rank, must be a resource location name !
+#If any item is already defined in another list, it will use the highest rarity first !
+item_rarity_epic_list = []
+#Define rarity for each item in this list to legendary rank, must be a resource location name !
+#If any item is already defined in another list, it will use the highest rarity first !
+item_rarity_legendary_list = []
+#Define rarity for each item in this list to unique rank, must be a resource location name !
+#If any item is already defined in another list, it will use the highest rarity first !
+item_rarity_unique_list = ["brainrotting_journey_assets:orb_of_death", "brainrotting_journey_assets:orb_of_life", "brainrotting_journey_assets:infused_handle", "brainrotting_journey_assets:eye_of_strocaler"]
+#Define rarity for each item in this list to mythic rank, must be a resource location name !
+#If any item is already defined in another list, it will use the highest rarity first !
+item_rarity_mythic_list = ["brainrotting_journey_assets:dual_blades"]
+#Define rarity for each item in this list to god rank, must be a resource location name !
+#If any item is already defined in another list, it will use the highest rarity first !
+item_rarity_god_list = ["brainrotting_journey_assets:blade_of_death_item", "brainrotting_journey_assets:breezy_blade", "brainrotting_journey_assets:staff_of_strocaler"]
+

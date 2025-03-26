@@ -1,0 +1,43 @@
+#X position of the hotbar
+#Range: > -2147483648
+hotbarX = 0
+#Y position of the hotbar
+#Range: > -2147483648
+hotbarY = 0
+#X position of the text
+#Range: > -2147483648
+textX = 0
+#Y position of the text
+#Range: > -2147483648
+textY = 0
+#X position of the experience bar
+#Range: > -2147483648
+expX = 0
+#Y position of the experience bar
+#Range: > -2147483648
+expY = 0
+#X offset of the experience bar
+#Range: > -2147483648
+expDX = 0
+#Y offset of the experience bar
+#Range: > -2147483648
+expDY = 0
+#X position of the health bar
+#Range: > -2147483648
+healthX = 0
+#Y position of the health bar
+#Range: > -2147483648
+healthY = 0
+#Spacing between health icons
+#Range: > -2147483648
+healthSpacing = 0
+#X position of the hunger bar
+#Range: > -2147483648
+hungerX = 0
+#Y position of the hunger bar
+#Range: > -2147483648
+hungerY = 0
+#Spacing between hunger icons
+#Range: > -2147483648
+hungerSpacing = 0
+

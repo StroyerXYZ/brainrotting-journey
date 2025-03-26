@@ -1,0 +1,63 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_2"
+	group: "471071ED469F10D8"
+	icon: "brainrotting_journey_assets:ts"
+	id: "47B8F7AB0D2841D1"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2E3A06D0987D5C3F"]
+			icon: "brainrotting_journey_assets:brainrotting_journey_icon"
+			id: "7A653D569681DCCD"
+			size: 2.0d
+			tasks: [{
+				id: "4CC3E06A641EFFC4"
+				title: "Chapter 2"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A653D569681DCCD"]
+			icon: "brainrotting_journey_assets:music_note"
+			id: "0A43A25B5F81CB51"
+			rewards: [{
+				count: 8
+				id: "10355C66BA229F6D"
+				item: "brainrotting_journey_assets:music_note"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					id: "6C34B37D82F184DC"
+					item: "brainrotting_journey_assets:thick_of_it_disc"
+					type: "item"
+				}
+				{
+					id: "140ADF6AFEFA1E4A"
+					item: "brainrotting_journey_assets:one_am_disc"
+					type: "item"
+				}
+				{
+					id: "15486314DA3C9B3C"
+					item: "brainrotting_journey_assets:fein_disc"
+					type: "item"
+				}
+				{
+					id: "563E6F0605BA77B2"
+					item: "brainrotting_journey_assets:we_not_like_you_disc"
+					type: "item"
+				}
+			]
+			title: "Recover The Discs"
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	title: "Chapter 2"
+}

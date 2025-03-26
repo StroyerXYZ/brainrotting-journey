@@ -1,0 +1,12 @@
+{
+	"unlocked_by_default": true,
+	"exclusive_root": true,
+	"title": "brainrot",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "iron_sword"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/dark.png"
+}

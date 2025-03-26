@@ -1,0 +1,393 @@
+{
+    "archer": {
+		"title": "Archer",
+        "description": "+10% Ranged Damage, +5% Movement Speed",
+        "frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "minecraft:skilltree/frames/square_brainrot_unlocked.png",
+				"available": "minecraft:skilltree/frames/square_brainrot_available.png",
+				"locked": "minecraft:skilltree/frames/square_brainrot_locked.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "minecraft:skilltree/icons/ranged.png"
+			}
+		},
+        "size": 1.5,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:ranged_damage",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+    "swordsman": {
+		"title": "Swordsman",
+        "description": "+10% Melee Damage, +5% Attack Speed",
+        "frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "minecraft:skilltree/frames/square_brainrot_unlocked.png",
+				"available": "minecraft:skilltree/frames/square_brainrot_available.png",
+				"locked": "minecraft:skilltree/frames/square_brainrot_locked.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "minecraft:skilltree/icons/melee.png"
+			}
+		},
+        "size": 1.5,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:melee_damage",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+    "protector": {
+		"title": "Protector",
+        "description": "+10% Armor, +5% Knockback Resistance",
+        "frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "minecraft:skilltree/frames/square_brainrot_unlocked.png",
+				"available": "minecraft:skilltree/frames/square_brainrot_available.png",
+				"locked": "minecraft:skilltree/frames/square_brainrot_locked.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "minecraft:skilltree/icons/defense.png"
+			}
+		},
+        "size": 1.5,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+    "mage": {
+		"title": "Mage",
+        "description": "+10% Magic Damage, +5% Health",
+        "frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "minecraft:skilltree/frames/square_brainrot_unlocked.png",
+				"available": "minecraft:skilltree/frames/square_brainrot_available.png",
+				"locked": "minecraft:skilltree/frames/square_brainrot_locked.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "minecraft:skilltree/icons/speed.png"
+			}
+		},
+        "size": 1.5,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:magic_damage",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"health+5%": {
+		"title": "+5% Health",
+        "frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "minecraft:skilltree/frames/brainrot_unlocked.png",
+				"available": "minecraft:skilltree/frames/brainrot_available.png",
+				"locked": "minecraft:skilltree/frames/brainrot_locked.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "minecraft:skilltree/icons/health.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+    "armor+2%": {
+		"title": "+2% Armor",
+        "frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "minecraft:skilltree/frames/brainrot_unlocked.png",
+				"available": "minecraft:skilltree/frames/brainrot_available.png",
+				"locked": "minecraft:skilltree/frames/brainrot_locked.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "minecraft:skilltree/icons/defense.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+    "armor+5%": {
+		"title": "+5% Armor",
+        "frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "minecraft:skilltree/frames/brainrot_unlocked.png",
+				"available": "minecraft:skilltree/frames/brainrot_available.png",
+				"locked": "minecraft:skilltree/frames/brainrot_locked.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "minecraft:skilltree/icons/defense.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+    "speed+2%": {
+		"title": "+2% Speed",
+        "frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "minecraft:skilltree/frames/brainrot_unlocked.png",
+				"available": "minecraft:skilltree/frames/brainrot_available.png",
+				"locked": "minecraft:skilltree/frames/brainrot_locked.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "minecraft:skilltree/icons/speed.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+    "speed+5%": {
+		"title": "+5% Speed",
+        "frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "minecraft:skilltree/frames/brainrot_unlocked.png",
+				"available": "minecraft:skilltree/frames/brainrot_available.png",
+				"locked": "minecraft:skilltree/frames/brainrot_locked.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "minecraft:skilltree/icons/speed.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+    "melee+5%": {
+		"title": "+5% Melee Damage",
+        "frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "minecraft:skilltree/frames/brainrot_unlocked.png",
+				"available": "minecraft:skilltree/frames/brainrot_available.png",
+				"locked": "minecraft:skilltree/frames/brainrot_locked.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "minecraft:skilltree/icons/melee.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:melee_damage",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+    "melee+10%": {
+		"title": "+10% Melee Damage",
+        "frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "minecraft:skilltree/frames/brainrot_unlocked.png",
+				"available": "minecraft:skilltree/frames/brainrot_available.png",
+				"locked": "minecraft:skilltree/frames/brainrot_locked.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "minecraft:skilltree/icons/melee.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:melee_damage",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+    "ranged+5%": {
+		"title": "+5% Ranged Damage",
+        "frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "minecraft:skilltree/frames/brainrot_unlocked.png",
+				"available": "minecraft:skilltree/frames/brainrot_available.png",
+				"locked": "minecraft:skilltree/frames/brainrot_locked.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "minecraft:skilltree/icons/ranged.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:ranged_damage",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+    "attackspeed+5%": {
+		"title": "+2% Attack Speed",
+        "frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "minecraft:skilltree/frames/brainrot_unlocked.png",
+				"available": "minecraft:skilltree/frames/brainrot_available.png",
+				"locked": "minecraft:skilltree/frames/brainrot_locked.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "minecraft:skilltree/icons/melee.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	}
+}

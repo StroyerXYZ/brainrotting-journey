@@ -1,0 +1,77 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = test
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1741387724142
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:f757f3b5-5235-4b4e-9353-55c85d7f53e0-1741387703685] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
+}
+
+element {
+  button_element_executable_block_identifier = ac99d8d9-2953-4dcc-8697-750bd8bbab78-1741387716810
+  [executable_block:ac99d8d9-2953-4dcc-8697-750bd8bbab78-1741387716810][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = New Button
+  navigatable = true
+  widget_active_state_requirement_container_identifier = d5c4d50f-0755-4303-afba-158d3ecd9394-1741387716810
+  [loading_requirement_container_meta:d5c4d50f-0755-4303-afba-158d3ecd9394-1741387716810] = [groups:][instances:]
+  element_type = custom_button
+  instance_identifier = 0137bd2a-f309-48ad-afb7-0c112af13805-1741387716810
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1020
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -1
+  y = 8
+  width = 100
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 4fded42a-4013-4907-8995-477f962d629e-1741387716810
+  [loading_requirement_container_meta:4fded42a-4013-4907-8995-477f962d629e-1741387716810] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+}
+
